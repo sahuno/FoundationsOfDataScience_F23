@@ -39,3 +39,5 @@ def rand_X_y_LR(nsamples=None, nfeatures=None):
 
 #test run 
 # X_data, y_data = rand_X_y_LR(nsamples=1000, nfeatures=24)
+
+# X_dataSGD, y_data_SGD = rand_X_y_LR(nsamples=1000, nfeatures=24)
