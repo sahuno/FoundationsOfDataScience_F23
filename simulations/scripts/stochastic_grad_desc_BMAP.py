@@ -7,8 +7,8 @@ Created on Fri Oct 13 14:49:29 2023
 """
 
 #fnctions
-# create basches
-# robinson monrow step size schedule
+# create bacthes
+# Use the robinson monrow step size schedule
 # add bias to X_dataa
 # compute cost
 #comupte gradient

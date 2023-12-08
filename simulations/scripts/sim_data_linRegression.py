@@ -24,7 +24,7 @@ def rand_X_y_LR(nsamples=None, nfeatures=None):
         X = np.random.rand(num_samples, num_features)
         
         # Generate random coefficients for the features
-        true_coefficients = np.random.rand(num_features)
+        true_coefficients = np.random.normal(loc=0, scale=1, size=num_features)
         
         # Generate random noise for the target variable
         noise = 0.1 * np.random.randn(num_samples)

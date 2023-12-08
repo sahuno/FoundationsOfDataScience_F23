@@ -1,0 +1,11 @@
+digraph {
+	betas [label=betas fillcolor=white shape=ellipse style=filled]
+	sigma [label=sigma fillcolor=white shape=plain style=filled]
+	subgraph cluster_Genes {
+		label=Genes labeljust=r labelloc=b
+		Y [label=Y fillcolor=gray shape=ellipse style=filled]
+	}
+	betas -> Y
+	sigma -> Y
+	distribution_description_node [label="betas ~ Uniform\lY ~ Normal\lsigma : GreaterThan(lower_bound=1)\l" shape=plaintext]
+}
